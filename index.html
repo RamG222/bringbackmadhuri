@@ -2,178 +2,150 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>#BringBackMadhuri | Campaign to Reunite an Elephant with Her Home</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bring Back Madhuri</title>
     <style>
-        :root {
-            --primary: #0c4a6e;
-            --accent: #16a34a;
-            --light: #f8fafc;
-            --dark: #1e293b;
-        }
-
-        * {
-            box-sizing: border-box;
+        body {
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-        }
-
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: var(--light);
-            color: var(--dark);
             line-height: 1.6;
         }
 
         header {
-            background: url('./madhuri.png') no-repeat center/cover;
-            height: 90vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 1rem;
             text-align: center;
-            padding: 2rem;
-            color: white;
         }
 
         header h1 {
-            font-size: 3rem;
-            font-weight: 800;
-            margin-bottom: 1rem;
+            margin: 0;
         }
 
-        header p {
-            font-size: 1.2rem;
-            max-width: 700px;
-            margin: 0 auto;
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 1rem;
         }
 
         section {
-            padding: 4rem 2rem;
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-
-        .timeline {
-            border-left: 4px solid var(--primary);
-            padding-left: 1rem;
-            margin-top: 2rem;
-        }
-
-        .timeline-item {
             margin-bottom: 2rem;
         }
 
-        .timeline-item h3 {
-            color: var(--primary);
-            margin-bottom: 0.3rem;
-        }
-
-        .form-section {
-            background-color: #fff;
-            border-radius: 10px;
-            padding: 2rem;
-            box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
-        }
-
-        form {
-            display: flex;
-            flex-direction: column;
-        }
-
-        input,
-        textarea {
-            padding: 0.75rem;
-            margin: 0.5rem 0;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            font-size: 1rem;
-        }
-
-        button {
-            background: var(--accent);
-            color: white;
-            padding: 0.8rem;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-top: 1rem;
-            font-weight: 600;
-            transition: background 0.3s;
-        }
-
-        button:hover {
-            background: #15803d;
-        }
-
         footer {
+            background-color: #4CAF50;
+            color: #fff;
             text-align: center;
-            padding: 2rem;
-            background-color: var(--primary);
-            color: white;
+            padding: 1rem;
+            bottom: 0;
+            width: 100%;
         }
 
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 2rem;
-            }
+        #home {
+            text-align: center;
+        }
+
+        #about,
+        #campaign,
+        #vantara,
+        #help {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1rem auto;
         }
     </style>
 </head>
 
 <body>
-
     <header>
-        <div>
-            <h1>#BringBackMadhuri</h1>
-            <p>A beloved elephant taken away from her Kolhapur home. Help us bring her back by raising your voice.</p>
-        </div>
+        <h1>Bring Back Madhuri</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Madhuri</a></li>
+                <li><a href="#campaign">The Campaign</a></li>
+                <li><a href="#vantara">Vantara's Side</a></li>
+                <li><a href="#help">How to Help</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <section>
-        <h2>📅 Timeline of Events</h2>
-        <div class="timeline">
-            <div class="timeline-item">
-                <h3>🕊️ 1988 – 2023</h3>
-                <p>Madhuri lived at Nandani Jain Mutt in Kolhapur for 33+ years, loved by locals and cared for like
-                    family.</p>
-            </div>
-            <div class="timeline-item">
-                <h3>📜 Oct 2023</h3>
-                <p>PETA India filed a complaint for her health concerns, triggering legal review by High Powered
-                    Committee (HPC).</p>
-            </div>
-            <div class="timeline-item">
-                <h3>🧑‍⚖️ July 2025</h3>
-                <p>Bombay High Court approved her transfer to Gujarat's Vantara sanctuary. Supreme Court upheld the
-                    decision.</p>
-            </div>
-            <div class="timeline-item">
-                <h3>🚛 July 30, 2025</h3>
-                <p>Madhuri was relocated with police protection despite large protests and emotional public opposition.
-                </p>
-            </div>
-            <div class="timeline-item">
-                <h3>✊ Aug 3, 2025</h3>
-                <p>Over 2 lakh citizens signed a petition to bring her back. #BringBackMadhuri began trending
-                    nationally.</p>
-            </div>
-        </div>
-    </section>
-
-
-
+    <main>
+        <section id="home">
+            <h2>Welcome to Bring Back Madhuri</h2>
+            <p>Madhuri, the beloved elephant of Kolhapur, was recently relocated to Gujarat. We believe she belongs with
+                her community in Nandani. Join us in our fight to bring her back home.</p>
+        </section>
+        <section id="about">
+            <h2>About Madhuri</h2>
+            <img src="madhuri.png" alt="Madhuri the Elephant">
+            <p>Madhuri, also known as Mahadevi, is a 36-year-old female elephant who has been a part of the Nandani
+                village in Kolhapur for over 30 years. She was brought to the Jain math at the age of 3 and has since
+                been a cherished member of the community.</p>
+            <p>However, due to health concerns raised by PETA India, the Bombay High Court ordered her relocation to
+                Vantara's facility in Jamnagar, Gujarat, for better care. Despite this, the people of Kolhapur want her
+                back, citing her deep emotional and cultural significance.</p>
+        </section>
+        <section id="campaign">
+            <h2>The Campaign</h2>
+            <p>The #bringbackmadhuri campaign has gained massive support, with over 100,000 signatures collected in just
+                24 hours. Protests have been held, and even mobile network boycotts have been called in response to her
+                relocation.</p>
+            <p>Political leaders, including Maharashtra minister Prakash Abitkar and MPs Dhananjay Mahadik and
+                Dhairyasheel Mane, are actively working to bring Madhuri back to Kolhapur.</p>
+        </section>
+        <section id="vantara">
+            <h2>Vantara's Side</h2>
+            <p>Vantara's Radhe Krishna Temple Elephant Welfare Trust in Jamnagar, Gujarat, is a state-of-the-art
+                facility offering advanced care for elephants. They have assured that Madhuri is being well taken care
+                of, with hydrotherapy and expert veterinary care.</p>
+            <p>However, the people of Kolhapur argue that Madhuri's home is in Nandani, and she should be allowed to
+                return.</p>
+        </section>
+        <section id="help">
+            <h2>How You Can Help</h2>
+            <ul>
+                <li><strong>Sign the Petition:</strong> Add your name to the growing list of supporters demanding
+                    Madhuri's return.</li>
+                <li><strong>Join Protests:</strong> Participate in or organize events to raise awareness.</li>
+                <li><strong>Spread the Word:</strong> Share the campaign on social media using #bringbackmadhuri.</li>
+                <li><strong>Donate:</strong> Support the campaign financially to cover legal and organizational costs.
+                </li>
+            </ul>
+        </section>
+    </main>
     <footer>
-        © 2025 #BringBackMadhuri · Powered by the People of Kolhapur
+        <p>&copy; 2025 Bring Back Madhuri Campaign</p>
+        <p>Made by <a href="http://ramscript.com">ramscript.com</a></p>
     </footer>
-
     <script>
-        document.getElementById("petitionForm").addEventListener("submit", function (e) {
-            e.preventDefault();
-            document.getElementById("thanks").style.display = "block";
-            this.reset();
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
         });
     </script>
 </body>
