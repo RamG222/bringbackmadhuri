@@ -48,7 +48,7 @@ export default function Home() {
             Gujarat, for better care. Despite this, the people of Kolhapur want
             her back, citing her deep emotional and cultural significance.
           </p>
-          <Image
+          <img
             src="/madhuri.png"
             alt="Madhuri the Elephant"
             fetchPriority="high"
@@ -56,7 +56,7 @@ export default function Home() {
             height={0}
             sizes="100vw"
             style={{ width: "100%", height: "auto" }} // optional
-          ></Image>
+          ></img>
         </section>
         <section id="campaign">
           <h2>What is Bring Back Madhuri? | The Campaign</h2>
