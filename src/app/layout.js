@@ -23,9 +23,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-       
-
-        {/* Google Analytics */}
         <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-WZZYMWB2KP"
