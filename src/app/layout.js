@@ -1,5 +1,7 @@
 import "./globals.css";
 import Script from "next/script";
+import Header from "./header";
+import Footer from "./footer";
 
 export const metadata = {
   title: "#BringBackMadhuri",
@@ -37,7 +39,11 @@ export default function RootLayout({ children }) {
           `}
         </Script>
       </head>
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

@@ -4,28 +4,6 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <header>
-        <h1>Bring Back Madhuri</h1>
-        <nav>
-          <ul>
-            <li>
-              <a href="#home">Home</a>
-            </li>
-            <li>
-              <a href="#about">About Madhuri</a>
-            </li>
-            <li>
-              <a href="#campaign">The Campaign</a>
-            </li>
-            <li>
-              <a href="#vantara">Vantara's Side</a>
-            </li>
-            <li>
-              <a href="#help">How to Help</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
       <main>
         <section id="home">
           <h2>Welcome to Bring Back Madhuri</h2>
@@ -224,19 +202,6 @@ export default function Home() {
           </ul>
         </section>
       </main>
-      <footer>
-        <p>&copy; 2025 Bring Back Madhuri Campaign</p>
-        <p>
-          Made by <a href="http://ramscript.com">ramscript.com</a>
-        </p>
-        <br />
-        <p>
-          Contact{" "}
-          <a href="mailto:info@bringbackmadhuri.com">
-            info@bringbackmadhuri.com
-          </a>
-        </p>
-      </footer>
     </>
   );
 }
