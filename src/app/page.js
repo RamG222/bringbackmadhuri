@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <main>
         <section id="home">
-          <h2>Welcome to Bring Back Madhuri</h2>
+          <h2>What is Bring Back Madhuri</h2>
           <p>
             Madhuri, the beloved elephant of Kolhapur, was recently relocated to
             Gujarat. We believe she belongs with her community in Nandani.
