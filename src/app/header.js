@@ -1,29 +1,40 @@
+import { FaArrowRight, FaLeaf } from "react-icons/fa";
+
 function Header() {
   return (
-    <>
+    <div className="header-shell">
       <header>
-        <h1>Bring Back Madhuri</h1>
+        <div className="brand">
+          <FaLeaf color="#16a34a" size={20} />
+          <span>#BringBackMadhuri</span>
+          <span className="brand-pill">elephant welfare</span>
+        </div>
         <nav>
           <ul>
             <li>
-              <a href="#home">Home</a>
+              <a href="#home">Story</a>
             </li>
             <li>
-              <a href="#about">About Madhuri</a>
+              <a href="#about">Facts</a>
             </li>
             <li>
-              <a href="#campaign">The Campaign</a>
+              <a href="#timeline">Timeline</a>
             </li>
             <li>
-              <a href="#vantara">Vantara's Side</a>
+              <a href="#legal">Legal</a>
             </li>
             <li>
-              <a href="#help">How to Help</a>
+              <a href="#faq">FAQ</a>
+            </li>
+            <li>
+              <a href="#help" className="nav-cta">
+                Help now <FaArrowRight size={14} />
+              </a>
             </li>
           </ul>
         </nav>
       </header>
-    </>
+    </div>
   );
 }
 
