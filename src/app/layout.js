@@ -15,8 +15,6 @@ export const metadata = {
     "Bring Back Madhuri",
     "Bombay High Court elephant case",
     "Vantara Jamnagar",
-    "elephant rehabilitation India",
-    "temple elephant welfare",
   ],
   alternates: {
     canonical: "https://bringbackmadhuri.com",
